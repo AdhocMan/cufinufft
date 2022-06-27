@@ -4,9 +4,9 @@
 #include <complex>
 #include <cstddef>
 #include <math.h>
+#include "cuda_hip_wrapper.h"
 #include <helper_cuda.h>
 #include <complex>
-#include <cufft.h>
 #include <thrust/tuple.h>
 #include <thrust/transform.h>
 #include <thrust/execution_policy.h>

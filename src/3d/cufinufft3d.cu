@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iomanip>
 #include <math.h>
+#include "cuda_hip_wrapper.h"
 #include <helper_cuda.h>
 #include <complex>
-#include <cufft.h>
 #include <thrust/transform.h>
 #include <thrust/complex.h>
 #include <thrust/execution_policy.h>
