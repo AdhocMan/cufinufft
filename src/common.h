@@ -6,9 +6,8 @@
 #include <iostream>
 #include <iomanip>
 
-#include <cuComplex.h>
 #include "precision_independent.h"
-#include "common.h"
+#include "cuda_hip_wrapper.h"
 
 namespace {
 
