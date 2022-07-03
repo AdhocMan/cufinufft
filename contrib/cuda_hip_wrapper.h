@@ -34,6 +34,11 @@
 #define cudaStream_t hipStream_t
 #define cudaSuccess hipSuccess
 
+#define cuCabs(arg) hipCabs(arg)
+#define cuCreal(arg) (arg.x)
+#define cuCimag(arg) (arg.y)
+#define make_cuDoubleComplex(x,y) (make_hipDoubleComplex(x,y))
+
 // cuComplex.h adapters
 #define cuDoubleComplex hipDoubleComplex
 #define cuFloatComplex hipFloatComplex
