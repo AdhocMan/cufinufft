@@ -5,6 +5,7 @@
 #include <thrust/execution_policy.h>
 
 #include "cuda_hip_wrapper.h"
+#include "contrib/cuda_samples/helper_cuda.h"
 #include "memtransfer.h"
 #include "../contrib/utils.h"
 #include "../contrib/common.h"
