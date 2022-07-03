@@ -6,6 +6,8 @@
 #include <hip/hip_runtime.h>
 #include <hip/hip_complex.h>
 #include <hipfft.h>
+#include <iostream>
+#include <utility>
 
 // cuda.h adapters
 #define cudaDeviceReset hipDeviceReset
@@ -38,6 +40,8 @@
 #define cuCreal(arg) (arg.x)
 #define cuCimag(arg) (arg.y)
 #define make_cuDoubleComplex(x,y) (make_hipDoubleComplex(x,y))
+
+#define checkCudaErrors(arg) {if(arg != hipSucces) {std::cerr << "GPU Error: " << arg; std::exit(EXIT_FAILURE);;}}
 
 // cuComplex.h adapters
 #define cuDoubleComplex hipDoubleComplex
