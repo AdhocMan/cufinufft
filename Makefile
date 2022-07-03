@@ -90,7 +90,7 @@ CONTRIBOBJS=contrib/dirft2d.o contrib/common.o contrib/spreadinterp.o contrib/ut
 # We create three collections of objects:
 #  Double (_64), Single (_32), and floating point agnostic (no suffix)
 
-CUFINUFFTOBJS=src/precision_independent.o src/profile.o contrib/legendre_rule_fast.o contrib/utils.o
+CUFINUFFTOBJS=src/profile.o contrib/legendre_rule_fast.o contrib/utils.o
 CUFINUFFTOBJS_64=src/1d/cufinufft1d.o \
 	src/1d/spread1d_wrapper.o src/1d/interp1d_wrapper.o \
 	src/2d/cufinufft2d.o \
