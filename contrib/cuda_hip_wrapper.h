@@ -41,7 +41,7 @@
 #define cuCimag(arg) (arg.y)
 #define make_cuDoubleComplex(x,y) (make_hipDoubleComplex(x,y))
 
-#define checkCudaErrors(arg) {if(arg != hipSucces) {std::cerr << "GPU Error: " << arg; std::exit(EXIT_FAILURE);;}}
+#define checkCudaErrors(arg) {if(arg != hipSuccess) {std::cerr << "GPU Error: " << arg; std::exit(EXIT_FAILURE);;}}
 
 // cuComplex.h adapters
 #define cuDoubleComplex hipDoubleComplex
