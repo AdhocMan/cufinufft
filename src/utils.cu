@@ -4,7 +4,7 @@
 #include <thrust/complex.h>
 #include <thrust/execution_policy.h>
 
-#include <cuComplex.h>
+#include "cuda_hip_wrapper.h"
 #include "memtransfer.h"
 #include "../contrib/utils.h"
 #include "../contrib/common.h"
