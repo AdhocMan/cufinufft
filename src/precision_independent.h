@@ -307,3 +307,5 @@ void GhostBinPtsIdx(int binsperobinx, int binsperobiny, int binsperobinz,
 	}
 }
 }
+
+#endif
