@@ -96,7 +96,7 @@ CUFINUFFTOBJS_64=src/1d/cufinufft1d.o \
 	src/2d/cufinufft2d.o \
 	src/2d/spread2d_wrapper.o src/2d/spread2d_wrapper_paul.o \
 	src/2d/interp2d_wrapper.o src/memtransfer_wrapper.o \
-	src/deconvolve_wrapper.o src/cufinufft.o src/utils.o src/common.o \
+	src/deconvolve_wrapper.o src/cufinufft.o src/utils.o \
 	src/3d/spread3d_wrapper.o \
 	src/3d/interp3d_wrapper.o src/3d/cufinufft3d.o \
 	$(CONTRIBOBJS)
