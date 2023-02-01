@@ -6,6 +6,7 @@
 #define PRECISION_INDEPENDENT_H
 #include <thrust/device_ptr.h>
 #include <thrust/scan.h>
+#include <thrust/extrema.h>
 #include "cuda_hip_wrapper.h"
 
 /* Auxiliary var/func to compute power of complex number */
